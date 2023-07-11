@@ -1,0 +1,2 @@
+This is the link to my task: https://www.w3schools.com/w3css/tryw3css_templates_apartment_rental.htm. 
+In this project, I utilized HTML, CSS, and JavaScript (specifically, the Document Object Model - DOM) to create a web page

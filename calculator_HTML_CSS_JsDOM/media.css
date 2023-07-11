@@ -1,0 +1,336 @@
+@media (max-width: 1000px) {
+    body {
+        background: rgb(2, 0, 36);
+        background-image: url("/image/mathbg1.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 30.3rem;
+        top: 10.9rem;
+        width: 310px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media (max-width: 768px) {
+    .calculator {
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+}
+
+@media (max-width: 450px) {
+    .calculator {
+        height: 100%;
+        width: 100%;
+    }
+    .calculator #time{
+        margin-left: 170px;
+    }
+    .calculator #buttons .equlebtn{
+        width: 100%;
+        margin-left: 60px;
+    }
+    #open {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-left:-57px;
+        margin-top: 40px;
+        width: 362px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 28%;
+    }
+}
+@media (max-width: 500px) {
+    .calculator {
+        height: 100%;
+        width: 100%;
+    }
+    .calculator #time{
+        margin-left: 250px;
+    }
+    .calculator #buttons .equlebtn{
+        width: 100%;
+        margin-left: 60px;
+    }
+    #open.more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-left:-107px;
+        margin-top: 18px;
+        width:400px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height:33%;
+    }
+    .calculator #buttons .equlebtn{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 550px) {
+    body {
+        overflow: hidden;
+    }
+    .calculator {
+        margin-right:6rem ;
+        height: 100%;
+        width: 100%;
+    }
+    .calculator #time{
+        margin-left: 290px;
+    }
+    .calculator #buttons .equlebtn{
+        width: 100%;
+        margin-left: 70px;
+    }
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-left:-80px;
+        margin-top: 20px;
+        /* width:200px; */
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height:33%;
+    }
+    .calculator #buttons .equlebtn{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 600px) {
+    .calculator {
+        height: 100%;
+        width: 100%;
+    }
+    .calculator #time{
+        margin-left: -5rem;
+    }
+    .calculator #buttons .equlebtn{
+        width: 100%;
+        margin-left:20px;
+    }
+    #open.more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-left:-97px;
+        margin-top: 18px;
+        width:482px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height:33%;
+    }
+    .calculator #buttons .equlebtn{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 650px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("./image/mathbg1.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    .calculator{
+        margin-left:-6rem;
+    }
+    .calculator #time{
+        margin-left: 19.1rem;
+    }
+    #open.more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-left:-49px;
+        margin-top:9px;
+        width:28.5rem;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height:33%;
+    }
+    .calculator #buttons .equlebtn{
+        margin-left: 80px;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 750px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 80vh;
+        margin-top: 3rem;
+        margin-left: 9rem;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+
+    .calculator {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: var(--primary-color);
+        text-align: center;
+        grid-gap: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 3px 4px;
+    }
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 9rem;
+        margin-top: 8px;
+        width: 28.5rem;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 35%;
+    }
+    #buttons .equlebtn{
+        width: 100%;
+        margin-left: 80px;
+    }
+    #time{
+        margin-left: 19.1rem;
+    }
+
+}
+/* @media (max-width: 625px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("./image/mathbg1.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+
+    .calculator {
+        width: 80%;
+        height: 80%;
+        background-color: var(--primary-color);
+        text-align: center;
+        grid-gap: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 3px 4px;
+    }
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 9.8rem;
+        width: 310px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 45%;
+    }
+
+} */
+
+@media (max-width: 450px){
+    #time{
+        margin-left: 90px;
+        width: 50%;
+        font-size: 0.7rem;
+        height: 1.5rem;
+    }
+    h2{
+        font-size: 18px;
+        background-color: white;
+    }
+    #buttons button{
+        font-size: 10px;
+        height: 2.5rem;
+    }
+    .calculator{
+        height: 24rem;
+    }
+    #buttons .equlebtn{
+        margin-top: -50px;
+        margin-left: 40px;
+        height: 2.4rem;
+    }
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-top: 23px;
+        left: 6.3rem;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 36%;
+    }
+}
+@media (max-width: 350px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("./image/mathbg1.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    #time{
+        margin-left: 63px;
+        width: 60%;
+        font-size: 0.7rem;
+        height: 1.4rem;
+    }
+    #buttons .equlebtn{
+        margin-top: -50px;
+        margin-left: 35px;
+        height: 2.3rem;
+    }
+    .calculator{
+        height: 23.4rem;
+    } 
+    .more {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        margin-top: 23px;
+        left: 5.5rem;
+        width: 175px;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 35%;
+    }
+    #buttons .closebtn{
+        height: 2rem;
+    }
+    .calculator #display{
+        height: 2.3rem;
+    }
+}

@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+body {
+    background-image: url('./image/diceImage.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.container{
+    align-items: center;
+    margin-left: 3rem;
+}
+h1 {
+    margin-left: 460px;
+    margin-top: 40px;
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+}
+
+h2 {
+    margin-left: 350px;
+    margin-top: 50px;
+    color: black;
+    border: 2px solid white;
+    background-color: green;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-family: cursive;
+    display: inline-flex;
+    font-style: italic;
+}
+.player{
+    margin-top: -1rem;
+}
+
+img {
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;
+    width: 100px;
+    height: 30px;
+    margin-left: 36rem;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}

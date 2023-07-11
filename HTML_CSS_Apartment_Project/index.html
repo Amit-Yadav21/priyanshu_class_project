@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Apartment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="rent">
+                <p>Rental</p>
+                <p>from $<sub>99</sub></p>
+                <p class="night">per night</p>
+            </div>
+            <div class="formbox">
+                <div>
+                    <i class="fa-regular fa-calendar-check"></i> <label for="datein">Check In</label><br><br>
+                    <input class="input" type="text" placeholder="DD MM YYYY" id="datein" required>
+                </div>
+                <div>
+                    <i class="fa-regular fa-calendar"></i> <label for="dateout">Check out</label><br><br>
+                    <input class="input" type="text" placeholder="DD MM YYYY" id="dateout">
+                </div>
+                <div>
+                    <i class="fa fa-male"></i> <label for="age">Adults</label><br><br>
+                    <input class="input" type="number" name="" id="age" required>
+                </div>
+                <div>
+                    <i class="fa-solid fa-child-reaching"></i> <label for="age">Kids</label><br><br>
+                    <input class="input" type="number" name="" id="age" required>
+                </div>
+                <div class="btn same">
+                    <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i> Search availability</button>
+                </div>
+            </div>
+            <div class="last">
+                <div class="bgcolor">
+                    <i class="material-icons">apartment</i><a href="#apartment">Apartment</a><br><br>
+                </div>
+                <div class="bgcolor" onclick="document.getElementById('idS').style.display='block'"
+                style="width:auto;">
+                    <i class="material-icons">rss_feed</i><a>Subscribe</a><br><br>
+                </div>
+                <div class="bgcolor">
+                    <i class="material-icons">mail</i><a href="#Contact">Contact</a><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="apartment">
+            <div id="apartment">
+                <h3>The Apartment</h3>
+                <div class="it">
+                    <img src="./image/livingroom1.jpg" class="bigimage" id="bigImageDisplay">
+                    <p id="imageText" class="LP">Living Room</p>
+                </div>
+                <div>
+                    <ul class="list">
+                        <li class="imglist"><img src="./image/livingroom1.jpg" class="img1" id="image1" alt="Living Room"></li>
+                        <li class="imglist"><img src="./image//diningroom.jpg" class="img1" id="image2" alt="Dining Room"></li>
+                        <li class="imglist"><img src="./image//livingroom4.jpg" class="img1" id="image3" alt="Bed Room"></li>
+                        <li class="imglist"><img src="./image//bedroom2.jpg" class="img1" id="image4" alt="Living Room II"></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>The space</h4>
+                <div class="space">
+                    <p class="box"><i class="fa fa-fw fa-male"></i>Max people: 4</p>
+                    <p class="box"><i class="fa fa-fw fa-bath"></i>Bathrooms: 2</p>
+                    <p class="box"><i class="material-icons">hotel</i>Bedroom: 1</p>
+                    <p class="box"><i class="material-icons">schedule</i>Check in: After 3pm</p>
+                    <p class="box"><i class="material-icons">schedule</i>Check out: 12pm</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h4>Amenities</h4>
+                <div class="space">
+                    <p class="box"><i class="material-icons">shower</i>Shower</p>
+                    <p class="box"><i class="material-icons">wifi</i>Wifi</p>
+                    <p class="box"><i class="material-icons">desktop_windows</i>TV</p>
+                    <p class="box"><i class="material-icons">restaurant</i>Kitchen</p>
+                    <p class="box"><i class="material-icons">device_thermostat</i>Heating</p>
+                    <p class="box"><i class="material-icons">accessible</i>Accessible</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="extraInfo">
+                    <h4>Extra Info</h4>
+                    <p class="extra">Our apartment is really clean and we like to keep it that way. Enjoy the lorem
+                        ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo <br> consequat.
+                    </p>
+                    <p class="extra">We accept: <i class="material-icons">credit_card</i><i
+                            class="material-icons">payments</i><i class="material-icons">qr_code_2</i><i
+                            class="material-icons">redeem</i> 
+                    </p><br><br>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <h4>Rules</h4>
+                    <p class="extra">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+                        nisi ut aliquip ex ea commodo consequat.                    </p>
+                    <p class="extra">Subscribe to receive updates on available dates and special offers.</p>
+                    <button class="button" id="sub" onclick="document.getElementById('idS').style.display='block'"
+                    >Subscribe</button><br><br><br>
+                </div>
+            </div>
+            <hr>
+            <div id="Contact">
+                <div>
+                    <h4 class="extra" id="contact">Contact</h4>
+                    <p class="box" id="c"><i class="material-icons">location_on</i> Chicago, US</p>
+                    <p class="box" id="c"><i class="material-icons">call</i>Phone: +00 151515</p>
+                    <p class="box" id="c"><i class="material-icons">mail</i>Email: mail@mail.com</p>
+                </div>
+                <p class="extra">Questions? Go ahead, ask them:</p><br>
+                <div class="check">
+                    <input class="input" type="text" placeholder="Name" required>
+                    <input class="input" type="text" placeholder="Email" required>
+                    <input class="input" type="text" placeholder="Message" required>
+                    <button class="button" id="sub">Send a Message</button><br><br><br>
+                </div>
+            </div>
+            <p>Created by Amit Yadav</p>
+        </div>
+    </div>
+    <!-- ----------------------------------- -->
+    <div id="idS" class="modal">
+        <form class="modal-content">
+            <div class="sub_container">
+                <h2 onclick="document.getElementById('idS').style.display='none'" class="cancelbtn">X</h2>
+                <h2 class="center">SUBSCRIBE</h2><br>
+                <p class="center">Join our mailing list to receive updates on available dates and special offers.</p><br>
+                <input class="sub_input" type="text" placeholder="Enter e-mail" required>
+                <button type="submit" class="loginBTN">SUBSCRIBE</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
